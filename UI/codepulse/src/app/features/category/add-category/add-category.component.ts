@@ -18,6 +18,12 @@ export class AddCategoryComponent {
     };
   }
   onFormSubmit(){
-    this.categoryService.addCategory(this.model);
+    this.categoryService.addCategory(this.model)
+    .subscribe({
+      next: (response) => {
+        console.log('This was successful!');
+
+        }
+      })
   }
 }
