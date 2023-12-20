@@ -26,6 +26,9 @@ export class AddCategoryComponent implements OnDestroy {
       next: (response) => {
         console.log('This was successful!');
 
+        },
+        error: (error) => {
+          
         }
       })
   }
