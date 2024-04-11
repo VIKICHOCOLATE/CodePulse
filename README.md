@@ -21,7 +21,6 @@ The project focuses on mastering full-stack web development using Angular for fr
 - Angular Forms
 - Authentication, Authorization, and JWT Tokens
 - Image Upload
-- ... and more.
 
 ### ASP.NET Core Web API:
 - Creation of APIs using C#
@@ -30,7 +29,6 @@ The project focuses on mastering full-stack web development using Angular for fr
 - Repository Pattern
 - Role-Based Authorization
 - Image Upload
-- ... and more.
 
 ## Application Overview
 
