@@ -28,7 +28,7 @@ export class AddCategoryComponent implements OnDestroy {
       next: (response) => {
         this.router.navigateByUrl('/admin/categories');
         }
-      })
+      });
   }
 
   ngOnDestroy(): void {
